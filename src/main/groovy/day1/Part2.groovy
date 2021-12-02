@@ -1,4 +1,4 @@
-package day1
+package main.groovy.day1
 
 class Part2 {
     static Integer solution(List<Integer> measurements) {
