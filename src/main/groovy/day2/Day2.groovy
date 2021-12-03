@@ -11,6 +11,9 @@ class Day2 {
 
         def test = ["forward 5", "down 5", "forward 8", "up 3", "down 8", "forward 2"]
 
+        assert Part1.solution(test) == 150
+        assert Part2.solution(test) == 900
+
         println('Solution 1: ' + Part1.solution(measurements))
         println('Solution 2: ' + Part2.solution(measurements))
 

@@ -2,10 +2,12 @@ package main.groovy.day2
 
 class Part1 {
 
-    private static int x = 0
-    private static int y = 0
+    private static int x
+    private static int y
 
     static Integer solution(List<String> position) {
+        x = 0
+        y = 0
 
         position.collect({ s -> s.split(" ") }).each { it -> calcPos(it) }
 
